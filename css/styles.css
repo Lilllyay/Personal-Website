@@ -24,7 +24,11 @@ body{
 .card{background:rgba(255,255,255,0.03);padding:1rem;border-radius:8px;margin-top:1rem}
 .hero h1{font-size:2rem;margin:0}
 .hero p{color:var(--muted)}
-.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem}
-.project h3{margin:0 0 .25rem 0}
+.projects-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:1.5rem;margin-top:1rem}
+.project{display:flex;flex-direction:column;height:100%}
+.project h3{margin:0 0 .5rem 0;text-align:center}
+.project p{margin:.25rem 0;flex-grow:1;text-align:center}
+.experience-list .job{margin:1.5rem 0;padding:1rem;border-left:3px solid var(--accent)}
+.experience-list .job h3{margin:0 0 .5rem 0;text-align:center}
 .site-footer{text-align:center;color:var(--muted);padding:2rem 0}
 @media (max-width:600px){.nav{flex-direction:column;gap:.5rem}.container{padding:.75rem}}
