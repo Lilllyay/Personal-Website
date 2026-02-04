@@ -15,10 +15,10 @@ body{
   -webkit-font-smoothing:antialiased;
 }
 .container{max-width:900px;margin:2rem auto;padding:1rem}
-.site-header{background:transparent;padding:1rem 0}
-.nav{display:flex;align-items:center;justify-content:space-between}
+.site-header{background:transparent;padding:1rem 0;text-align:center}
+.nav{display:flex;align-items:center;justify-content:center;gap:2rem}
 .logo{color:var(--accent);font-weight:600;text-decoration:none;font-size:1.1rem}
-.nav-links{list-style:none;margin:0;padding:0;display:flex;gap:1rem}
+.nav-links{list-style:none;margin:0;padding:0;display:flex;gap:1.5rem}
 .nav-links a{color:var(--muted);text-decoration:none}
 .nav-links a:hover{color:var(--text)}
 .card{background:rgba(255,255,255,0.03);padding:1rem;border-radius:8px;margin-top:1rem}
